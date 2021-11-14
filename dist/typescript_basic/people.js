@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.people = void 0;
+exports.anotherPerson = exports.people = void 0;
 exports.people = [];
 var chiskien = {
     name: "Nguyen Chi Kien",
@@ -48,14 +48,8 @@ var huongNguyen = {
     job: [],
     hobbies: [],
 };
-var tueti = {
-    name: "Nguyen Khac Tue",
-    age: 20,
-    gender: true,
-    education: "FPT University",
-    nationality: "Viet Nam",
-    job: ["AI Engineer", "Mobile Developer", "Java Developer"],
-    hobbies: [],
+exports.anotherPerson = {
+    "play styles": ["Doggy", "Anal"],
 };
-exports.people.push(chiskien, dhp, huongNguyen, tueti);
+exports.people.push(chiskien, dhp, huongNguyen);
 //# sourceMappingURL=people.js.map

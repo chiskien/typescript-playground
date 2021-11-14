@@ -11,8 +11,5 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.11.6"
-  },
-  "dependencies": {
-    "rxjs": "^7.4.0"
   }
 }

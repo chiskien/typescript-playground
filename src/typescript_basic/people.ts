@@ -47,13 +47,8 @@ const huongNguyen: Person = {
   job: [],
   hobbies: [],
 };
-const tueti: Person = {
-  name: "Nguyen Khac Tue",
-  age: 20,
-  gender: true,
-  education: "FPT University",
-  nationality: "Viet Nam",
-  job: ["AI Engineer", "Mobile Developer", "Java Developer"],
-  hobbies: [],
+export let anotherPerson = {
+  "play styles": ["Doggy", "Anal"],
 };
-people.push(chiskien, dhp, huongNguyen, tueti);
+
+people.push(chiskien, dhp, huongNguyen);
