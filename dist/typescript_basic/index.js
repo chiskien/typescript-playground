@@ -1,5 +1,2 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var people_1 = require("./people");
-console.table(people_1.anotherPerson);
+console.log("Hello World");
 //# sourceMappingURL=index.js.map
