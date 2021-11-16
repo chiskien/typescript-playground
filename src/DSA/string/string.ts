@@ -57,3 +57,12 @@ let subStr2: string[] = str2.split(" ");
 //.replace(string, replacedString) replaces a specified string
 //within a string variable with another string
 str.replace("d", "f"); // return "fog"
+
+//Reversed string
+function reversedString(str: string) {
+  let reversedString: string = "";
+  for (let i = str.length - 1; i >= 0; i--) {
+    reversedString += str.charAt(i);
+  }
+  return reversedString;
+}
