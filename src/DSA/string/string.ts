@@ -1,5 +1,7 @@
+const str2: string = "The quick brown fox jumps over the lazy dog";
+const str: string = "dog";
+
 //String Access
-const str = "dog";
 str.charAt(1); // return "o"
 // charAt(index) takes an index and return the character at the index location
 str.substring(1, 2); //return "og"
@@ -30,7 +32,7 @@ function existInString(string: string, search: string): boolean {
 // console.log(existInString(str, "s")); //return false
 
 //count word function
-const str2: string = "The quick brown fox jumps over the lazy dog";
+
 function countWord(string: string, value: string): number {
   let count = 0;
   let position: number = string.indexOf(value);
@@ -44,3 +46,14 @@ function countWord(string: string, value: string): number {
   }
   return count;
 }
+
+//String decomposition
+//for decomposing a string into parts, using str.split(seperator)
+//it takes one parameter and create an array of substrings
+let subStr2: string[] = str2.split(" ");
+//return ["The","quick","brown","fox","jumps","over".....]
+
+//String replace
+//.replace(string, replacedString) replaces a specified string
+//within a string variable with another string
+str.replace("d", "f"); // return "fog"

@@ -1,5 +1,6 @@
-//String Access
+var str2 = "The quick brown fox jumps over the lazy dog";
 var str = "dog";
+//String Access
 str.charAt(1); // return "o"
 // charAt(index) takes an index and return the character at the index location
 str.substring(1, 2); //return "og"
@@ -26,7 +27,6 @@ function existInString(string, search) {
 // console.log(existInString(str, "d")); //return true
 // console.log(existInString(str, "s")); //return false
 //count word function
-var str2 = "The quick brown fox jumps over the lazy dog";
 function countWord(string, value) {
     var count = 0;
     var position = string.indexOf(value);
@@ -40,5 +40,13 @@ function countWord(string, value) {
     }
     return count;
 }
-console.log(countWord(str2, "zz"));
+//String decomposition
+//for decomposing a string into parts, using str.split(seperator)
+//it takes one parameter and create an array of substrings
+var subStr2 = str2.split(" ");
+//return ["The","quick","brown","fox","jumps","over".....]
+//String replace
+//.replace(string, replacedString) replaces a specified string
+//within a string variable with another string
+str.replace("d", "f"); // return "fog"
 //# sourceMappingURL=string.js.map
