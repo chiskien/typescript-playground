@@ -38,17 +38,5 @@ const dhp: Person = {
   job: [],
   hobbies: [],
 };
-const huongNguyen: Person = {
-  name: "Nguyen Mai Huong",
-  age: 20,
-  gender: false,
-  education: "Academy of Journalism and Communication",
-  nationality: "Viet Nam",
-  job: [],
-  hobbies: [],
-};
-export let anotherPerson = {
-  "play styles": ["Doggy", "Anal"],
-};
 
-people.push(chiskien, dhp, huongNguyen);
+people.push(chiskien, dhp);

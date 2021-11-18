@@ -12,7 +12,6 @@ export class LinkedList {
     if (this.isEmpty) {
       console.log("List is empty");
     } else {
-      this.head.next = newNode;
     }
   }
   isEmpty(): boolean {
