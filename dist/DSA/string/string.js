@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.joinString = void 0;
 var str2 = "The quick brown fox jumps over the lazy dog";
 var str = "dog";
 //String Access
@@ -57,4 +60,9 @@ function reversedString(str) {
     }
     return reversedString;
 }
+//connect string
+function joinString(str) {
+    return str.join("&");
+}
+exports.joinString = joinString;
 //# sourceMappingURL=string.js.map

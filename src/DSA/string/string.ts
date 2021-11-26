@@ -66,3 +66,8 @@ function reversedString(str: string) {
   }
   return reversedString;
 }
+
+//connect string
+export function joinString(str: string[]): string {
+  return str.join("&");
+}
