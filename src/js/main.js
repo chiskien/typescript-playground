@@ -15,3 +15,4 @@ let calculator = {
 let ladder = {
   step: 0,
 };
+console.log("Hello World");
