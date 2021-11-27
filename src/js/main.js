@@ -12,7 +12,10 @@ let calculator = {
     return +this.firstNumber * +this.secondNumber;
   },
 };
-let ladder = {
-  step: 0,
-};
-console.log("Hello World");
+for (let current = 20; current < 40; current++) {
+  if (current % 7 === 0) {
+    console.log(current);
+    break;
+    ``;
+  }
+}

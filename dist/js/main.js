@@ -12,8 +12,10 @@ var calculator = {
         return +this.firstNumber * +this.secondNumber;
     },
 };
-var ladder = {
-    step: 0,
-};
-console.log("Hello World");
+for (var current = 20; current < 40; current++) {
+    if (current % 7 === 0) {
+        console.log(current);
+        break;
+    }
+}
 //# sourceMappingURL=main.js.map

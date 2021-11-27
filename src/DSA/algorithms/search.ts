@@ -6,7 +6,7 @@ export function linearSearch<T>(array: T[], value: T): number {
   }
   return -1;
 }
-export function binarySearch<T>(array: T[], value: T) {
+export function binarySearch<T>(array: T[], value: T): number {
   let lowIndex = 0;
   let highIndex = array.length - 1;
   while (lowIndex <= highIndex) {
